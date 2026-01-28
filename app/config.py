@@ -1,8 +1,3 @@
-"""
-Configuration file for the Background Remover API.
-This file loads environment variables and provides default values.
-"""
-
 import os
 from dotenv import load_dotenv
 
