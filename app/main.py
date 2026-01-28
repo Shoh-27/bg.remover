@@ -1,8 +1,3 @@
-"""
-Main application file for Background Remover API.
-This is the entry point of the FastAPI application.
-"""
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
