@@ -1,8 +1,3 @@
-"""
-Background removal service.
-This file contains the core logic for removing backgrounds from images.
-"""
-
 from io import BytesIO
 from PIL import Image
 from rembg import remove
