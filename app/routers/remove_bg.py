@@ -1,17 +1,9 @@
-"""
-Router for background removal endpoints.
-This file defines the API routes for image processing.
-"""
-
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse
 from io import BytesIO
 
 from app.services.bg_service import bg_service
 
-
-# Create a router instance
-# prefix="/api" means all routes here will start with /api
 router = APIRouter(
     prefix="/api",
     tags=["Background Removal"]  # Groups endpoints in API docs
