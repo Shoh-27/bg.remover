@@ -1,1 +1,28 @@
-venv
+venv# Virtual environment
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*.local
+
+# Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.log
+
+# IDE va editor fayllari
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS fayllari
